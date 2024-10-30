@@ -4,6 +4,8 @@
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(Add(21,7));
+            Console.WriteLine(Add(3.6m,6.4m));
             Console.WriteLine(Add(7, 14, true));
         }
 
